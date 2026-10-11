@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Portofolio Ilham Fajariawan</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    
+<!-- Halaman Sambutan -->
+<div id="welcome-screen">
+  <h1 id="greeting">Selamat Datang!</h1>
+  <p>Selamat datang di website portofolio saya.</p>
+  <button onclick="enterPortfolio()">
+    Masuk ke Portofolio →
+  </button>
+</div>
+    
+
+
+    
+
+
+<header>
+  <nav class="navbar" id="navbar">
+    <h2>My Portfolio</h2>
+
+    <button
+      id="menu-3d-toggle"
+      type="button"
+      aria-expanded="false"
+      aria-controls="nav-menu"
+    >
+      <span class="cube-icon">▦</span>
+      <span id="menu-label">MENU</span>
+    </button>
+
+    <button id="theme-toggle" type="button">
+      ☀️ Light Mode
+    </button>
+
+    <ul class="nav-menu" id="nav-menu" hidden>
+      <li><a href="#home">🏠 Home</a></li>
+      <li><a href="#about">👤 Tentang</a></li>
+      <li><a href="#skills">💻 Bidang</a></li>
+      <li><a href="#tasks">📁 Tugas</a></li>
+      <li><a href="#contact">✉️ Kontak</a></li>
+    </ul>
+  </nav>
+</header>
+    
+
+    <!-- PROFIL / HOME -->
+    <section id="home" class="hero">
+
+        <div class="profile-image">
+
+            <!-- Ganti foto.jpg dengan foto kamu -->
+            <img src="images/image.png" alt="Foto Profil">
+
+        </div>
+
+
+        <div class="profile-text">
+
+            
+            
+<h1 class="student-name">
+  <span class="greeting-name">Halo,saya</span>
+  <span class="name-highlight">Ilham Fajariawan</span>
+  <span class="name-role">Junior Web Developer</span>
+</h1>
+
+            <p>
+                Saya adalah seorang pelajar yang tertarik dengan
+                teknologi, pemrograman, dan pengembangan website.
+                Saya terus belajar untuk meningkatkan kemampuan
+                saya dalam bidang teknologi.
+            </p>
+
+            <button class="contact-button" onclick="scrollToContact()">
+                Hubungi Saya
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- TENTANG -->
+    <section id="about" class="section">
+
+        <h2>Tentang Saya</h2>
+
+        <div class="about-box">
+
+            <p>
+                Saya merupakan siswa SMKN 1 Kepanjen jurusan
+                Rekayasa Perangkat Lunak. Saya memiliki ketertarikan
+                terhadap dunia teknologi dan pemrograman.
+            </p>
+
+            <p>
+                Saya sedang mempelajari HTML, CSS, JavaScript,
+                Python, dan berbagai teknologi lainnya untuk
+                mengembangkan kemampuan dalam membuat website
+                dan aplikasi.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    
+<section id="skills" class="skills-section">
+  <div class="skills-heading">
+    <span class="section-label">MY INTERESTS</span>
+    <h2>Bidang yang Saya <span>Sukai</span></h2>
+    <p>
+      Beberapa bidang yang ingin saya pelajari dan kembangkan
+      dalam perjalanan menjadi web developer.
+    </p>
+  </div>
+
+  <div class="skills-container">
+
+    <div class="skill-card">
+      <div class="skill-icon">💻</div>
+      <h3>Web Development</h3>
+      <p>Membuat website yang menarik, responsif, dan mudah digunakan.</p>
+      <span class="skill-tag">HTML • CSS • JavaScript</span>
+    </div>
+
+    <div class="skill-card">
+      <div class="skill-icon">🐍</div>
+      <h3>Programming</h3>
+      <p>Mempelajari logika pemrograman dan membuat proyek menggunakan kode.</p>
+      <span class="skill-tag">Python • Problem Solving</span>
+    </div>
+
+    <div class="skill-card">
+      <div class="skill-icon">🎮</div>
+      <h3>Game Development</h3>
+      <p>Mengeksplorasi cara membuat game dan fitur interaktif.</p>
+      <span class="skill-tag">Game Logic • Creativity</span>
+    </div>
+
+  </div>
+</section>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+   
+<div class="task-container">
+
+  <div class="task-card">
+    <img
+    src="images/tugas1.png"
+    alt="Preview Tugas 1"
+    class="task-image"
+  >
+    <h3>Tugas 1</h3>
+    <p>Tugas HTML pertama</p>
+    <a href="https://github.com/fajariawanilham-source/tugas-1-SMKN1kepanjen" target="_blank">Lihat Tugas</a>
+    
+  </div>
+
+  <div class="task-card">
+    <img
+    src="images/tugas2.png"
+    alt="Preview Tugas 1"
+    class="task-image"
+  >
+  
+    <h3>Tugas 2</h3>
+    <p>Tugas HTML kedua</p>
+    <a href="https://github.com/fajariawanilham-source/tugas-2-SMKN1kepanjen." target="_blank">Lihat Tugas</a>
+  </div>
+
+  <div class="task-card">
+    <img
+    src="images/tugas3.png"
+    alt="Preview Tugas 1"
+    class="task-image"
+  >
+    <h3>Tugas 3</h3>
+    <p>Tugas HTML ketiga</p>
+    <a href="https://github.com/fajariawanilham-source/tugas-3-SMKN1kepanjen.-" target="_blank">Lihat Tugas</a>
+  </div>
+
+</div>
+    <!-- KONTAK -->
+    <section id="contact" class="contact">
+
+        <h2>Kontak Saya</h2>
+
+        <p>
+            Kamu dapat menghubungi saya melalui:
+        </p>
+
+
+        <div class="social">
+
+           
+            <a href=https://www.instagram.com/ilham_fajariawan/?hl=en
+               target="_blank">
+                📷 Instagram
+            </a>
+
+            <a href=https://www.tiktok.com/@ilham_fajar06?is_from_webapp=1&sender_device=pc
+               target="_blank">
+                🎵 TikTok
+            </a>
+
+            <a href=https://github.com/fajariawanilham-source
+               target="_blank">
+                💻 GitHub
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <p>
+            © 2026 Ilham Fajariawan
+        </p>
+
+    </footer>
+
+
+    <!-- JAVASCRIPT -->
+    <script src="script.js"></script>
+
+</body>
+</html>
