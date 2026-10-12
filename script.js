@@ -1,6 +1,3 @@
-// =============================
-// DARK / LIGHT MODE
-// =============================
 
 const themeButton = document.getElementById("theme-toggle");
 
@@ -13,16 +10,14 @@ if (savedTheme === "light") {
 
     document.body.classList.add("light-mode");
 
-    themeButton.textContent = "🌙 Dark Mode";
+    themeButton.textContent = "☾ Dark Mode";
 
 } else {
 
-    themeButton.textContent = "☀️ Light Mode";
+    themeButton.textContent = "☀︎ Light Mode";
 
 }
 
-
-// Fungsi mengganti tema
 themeButton.addEventListener("click", function () {
 
     document.body.classList.toggle("light-mode");
@@ -30,24 +25,19 @@ themeButton.addEventListener("click", function () {
 
     if (document.body.classList.contains("light-mode")) {
 
-        themeButton.textContent = "🌙 Dark Mode";
+        themeButton.textContent = "☾ Dark Mode";
 
         localStorage.setItem("theme", "light");
 
     } else {
 
-        themeButton.textContent = "☀️ Light Mode";
+        themeButton.textContent = "☀︎ Light Mode";
 
         localStorage.setItem("theme", "dark");
 
     }
 
 });
-
-
-// =============================
-// TOMBOL HUBUNGI SAYA
-// =============================
 
 function scrollToContact() {
 
@@ -57,17 +47,11 @@ function scrollToContact() {
 
 }
 
-
-// =============================
-// PESAN DI CONSOLE
-// =============================
-
 window.addEventListener("load", function () {
 
     console.log("Portofolio berhasil dimuat!");
 
 });
-
 
 function setGreeting() {
   const hour = new Date().getHours();
@@ -93,11 +77,6 @@ function enterPortfolio() {
 }
 
 setGreeting();
-
-
-
-
-
 
 const menuToggle = document.getElementById("menu-3d-toggle");
 const navMenu = document.getElementById("nav-menu");

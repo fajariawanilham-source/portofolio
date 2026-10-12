@@ -8,11 +8,6 @@
     box-sizing: border-box;
 }
 
-
-/* =========================
-   BODY
-========================= */
-
 html {
     scroll-behavior: smooth;
 }
@@ -27,12 +22,6 @@ body {
 
     transition: 0.3s;
 }
-
-
-/* =========================
-   NAVBAR
-========================= */
-
 header {
     position: sticky;
     top: 0;
@@ -304,37 +293,27 @@ header {
 
 .task-card {
     display: block;
-
     background: #1e293b;
-
     padding: 25px;
-
     border-radius: 12px;
-
     border-left: 5px solid #ff0000;
-
     text-decoration: none;
-
     color: white;
-
-    transition: 0.3s;
+    transition: 0.3s ease;
 }
 
 .task-card:hover {
     transform: translateX(6px);
-
     border-left-color: #ff0000;
 }
 
 .task-card span {
     color: #ff0000;
-
     font-weight: bold;
 }
 
 .task-card h3 {
     color: white;
-
     margin: 8px 0;
 }
 
@@ -344,20 +323,15 @@ header {
 
 .task-card small {
     display: block;
-
     margin-top: 15px;
-
     color: #ff0000;
-
     font-weight: bold;
 }
 
 
 body.light-mode .task-card {
     background: white;
-
     color: #0f172a;
-
     border-color: #cbd5e1;
 }
 
